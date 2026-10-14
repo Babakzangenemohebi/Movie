@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+:root {
+  --bg-obsidian: #09090b;
+  --bg-surface: #121215;
+  --accent-amber: #e5a93c;
+  --accent-crimson: #be123c;
+}
+
+body {
+  background-color: var(--bg-obsidian);
+  color: #f4f4f5;
+  overflow-x: hidden;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #09090b;
+}
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #e5a93c;
+}
